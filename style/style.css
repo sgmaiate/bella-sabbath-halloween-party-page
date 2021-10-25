@@ -1,0 +1,349 @@
+@font-face {
+    font-family: shlop;
+    src: url(../fonts/shlop.ttf); 
+}
+@font-face {
+    font-family: plasdrip;
+    src: url(../fonts/plasdrip.ttf);
+}
+@font-face {
+    font-family: plasdrpe;
+    src: url(../fonts/plasdrpe.ttf);
+}
+@font-face {
+    font-family: Requiem;
+    src: url(../fonts/Requiem.ttf);
+}
+@font-face {
+    font-family: RIKY2vamp;
+    src: url(../fonts/RIKY2vamp.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: RIKY2vamp;
+}
+h1 {
+    font-family: shlop;
+}
+.main-body {
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    background: size 100%; ;
+    
+    
+}
+.descript-text {
+    text-align: center;
+    padding: 25px 0 50px 0;
+    font-size: 25px;
+    width: 800px;
+    color: white;
+}
+.descript-text div div {
+    padding: 10px;
+    
+}
+
+.descript-text ul {
+    list-style: none;
+}
+.descript-text div p {
+    font-size: 20px;
+    padding: 10px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+.nav-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-size: 40px;
+    padding-right: 20px;
+}
+.nav-menu li {
+    color: white;
+    padding: 0 15px;
+    
+}
+.nav-menu a {
+    cursor: pointer;
+
+}
+.nav-menu li:hover {
+    background-color: rgb(130, 17, 175);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.637);
+    background: linear-gradient(to bottom,rgba(66, 2, 241, 0.6),rgba(0, 0, 0, 0.6));
+    margin-top: 70px;
+}
+
+#one {
+    border-top: 5px double orangered;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.5)
+    ), url("https://avatarfiles.alphacoders.com/103/103934.png");
+      background-position: center;
+    width: 100%;
+    padding: 50px 0;
+    justify-content: flex-start;;
+}
+#one h1 {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+#one h2 {
+    font-size: 15px;
+}
+#one h3 {
+    text-align: center;
+}
+#one ul {
+    padding: 30px 25px;
+    list-style: none;
+    font-size: 25px;
+}
+.beneficts-list {
+    display: flex;
+}
+.first-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 70px 0 0;
+    width: 80%;
+    height: 70px;
+}
+.first-footer ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#two {
+    border-top: 5px double red;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ),
+        url("https://png.pngtree.com/thumb_back/fh260/background/20190918/pngtree-halloween-background-with-glowing-pumpkin-faces-image_316072.jpg");
+    width: 100%;
+    padding: 25px 0 0 0;
+}
+.second-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: rgb(233, 236, 154);
+    margin: 0px 0 30px 0;
+}
+.second-header img {
+    margin-top: 10px;
+}
+#two h1 {
+    font-size: 70px;
+}
+#two h2 {
+    font-size: 23px;
+}
+#two h2:nth-child(2) {
+    padding-top: 40px;
+    font-size: 40px;
+}
+
+.open-bar-itens {
+    display: flex;
+    list-style: none;
+    font-size: 40px;
+}
+.open-bar-itens li {
+    padding-right: 10px;
+}
+.second-footer {
+    padding-top: 25px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;;
+}
+.second-footer img {
+    position: relative;
+}
+#three { 
+    border-top: 5px double orange;
+    padding-top: 70px;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ), url("https://images3.alphacoders.com/908/thumb-1920-908034.jpg") ;
+    background-position: center;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#three h1 {
+    padding-bottom: 10px;
+}
+.drink-list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.drink-list img {
+    visibility: hidden;
+}
+.drink-list div:nth-child(1) {
+    padding-right: 50px;
+}
+.drink-list div:nth-child(2) {
+    padding-left: 50px;
+}
+.drink-list div:nth-child(1) p {
+    color:goldenrod;
+}
+.drink-list div:nth-child(2) p {
+    color: red;
+    display: hidden;
+}
+.drink-list div:hover img {
+    visibility: initial;
+}
+
+.drink-list div p:first-child {
+    font-family: shlop;
+}
+.drink-list div p:nth-child(2) {
+    font-size: 20px;
+    color: white;
+}
+#four {
+    border-top: 5px double aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: white;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ), url("https://static.vecteezy.com/system/resources/previews/002/767/131/non_2x/halloween-background-full-blue-moon-dark-forest-and-lonely-trail-halloween-background-for-your-arts-vector.jpg");
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+#four h1 {
+    padding: 20px 0;
+    font-size: 50px;
+}
+.fourth-box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80%;
+    
+}
+.fourth-box div {
+    padding: 10px;
+    width: 40%;
+    background: linear-gradient(to top,
+        rgba(0, 0, 0, 0.7),
+        rgba(3, 80, 110, 0.7)
+    );
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+}
+.fourth-box div:first-child p {
+    padding: 50px;
+    visibility: hidden;
+}
+.fourth-box div:nth-child(2) p {
+    padding: 10px;
+    text-decoration: none;
+    visibility: hidden;
+}
+.fourth-box div:hover p {
+    visibility: initial;
+}
+.fourth-box a {
+    color: aquamarine;
+}
+.fourth-box a:hover {
+    text-decoration: underline;
+}
+div header:last-of-type{
+    margin-bottom: 20px;
+}
+.page-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ), url("https://i.pinimg.com/originals/db/38/06/db3806dc1e7d7026d4f759053c76cb71.jpg");
+    border-top: 3px solid rgb(1, 17, 41);
+    font-family: sans-serif;
+}
+.footer-content {
+    width: 75%;
+    height: 200px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+footer ul li {
+    padding: 0 20px;
+}
