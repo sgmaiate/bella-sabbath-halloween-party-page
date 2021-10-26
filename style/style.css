@@ -37,9 +37,7 @@ h1 {
     width: 100%;
     height: 100%;
     background-color: orangered;
-    background: size 100%; ;
-    
-    
+    background: size 100%; ;   
 }
 .descript-text {
     text-align: center;
@@ -99,7 +97,10 @@ h1 {
     background: linear-gradient(to bottom,rgba(66, 2, 241, 0.6),rgba(0, 0, 0, 0.6));
     margin-top: 70px;
 }
-
+.gif-dance {
+    margin: 100px 100px 100px 30px;
+    position: fixed;
+}
 #one {
     border-top: 5px double orangered;
     display: flex;
